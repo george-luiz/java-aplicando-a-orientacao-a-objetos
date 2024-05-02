@@ -1,4 +1,6 @@
-public class Filme {
+package br.com.alura.screeenmatch.modelos;
+
+public class Titulo {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -58,8 +60,4 @@ public class Filme {
     public double pegaMedia() {
         return somaAvaliacao / totalDeAvaliacoes;
     }
-
 }
-
-
-
