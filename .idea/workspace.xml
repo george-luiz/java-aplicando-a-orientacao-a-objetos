@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d656cf54-18c0-4790-9d54-0f8fb950f6e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Alunos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IdadePessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/calculos/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Titulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/principal/PrincipalComListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alunos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaBancaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IdadePessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,27 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/gelui/Documents/projetos/java/screenmatch",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.PrincipalComListas">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.screeenmatch.principal.Principal" />
       <module name="screenmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalComListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.screeenmatch.principal.PrincipalComListas" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.screeenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,10 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teste" />
+      <module name="screenmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.PrincipalComListas" />
+        <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Testa" />
+        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
