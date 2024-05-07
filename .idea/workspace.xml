@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d656cf54-18c0-4790-9d54-0f8fb950f6e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/TitulosOmdb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/exception/ErroDeConversaoDeAnoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screeenmatch/principal/PrincipalComBusca.java" afterDir="false" />
     </list>
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,8 +98,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PrincipalComBusca" />
-        <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Teste" />
+        <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Testa" />
         <item itemvalue="Application.Principal" />
       </list>
