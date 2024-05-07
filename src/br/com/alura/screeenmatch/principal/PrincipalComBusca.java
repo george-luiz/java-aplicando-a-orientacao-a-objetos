@@ -1,5 +1,11 @@
 package br.com.alura.screeenmatch.principal;
 
+import br.com.alura.screeenmatch.modelos.Titulo;
+import br.com.alura.screeenmatch.modelos.TitulosOmdb;
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -10,7 +16,7 @@ import java.util.Scanner;
 public class PrincipalComBusca {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner leitura = new Scanner(System.in);
-        System.out.println("Digite um filme para busca.");
+        System.out.println("Digite um filme para busca?");
         var busca = leitura.nextLine();
         String endereco = "https://www.omdbapi.com/?t=" + busca + "&apikey=eadaaab7";
 
@@ -20,6 +26,17 @@ public class PrincipalComBusca {
                 .build();
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
-        System.out.println(response.body());
+
+        String json = response.body();
+        System.out.println(json);
+
+//        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).create();
+//        Titulo meuTitulo = gson.fromJson(json, Titulo.class);
+        TitulosOmdb meuTituloOmdb = gson.fromJson(json, TitulosOmdb.class);
+        Titulo meuTitulo = new Titulo(meuTituloOmdb);
+
+        System.out.println("Filme: " + meuTituloOmdb);
+        System.out.println("Meu Titulo: " + meuTitulo);
     }
 }
